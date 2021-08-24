@@ -6,6 +6,11 @@ The objective for this project is to create a ranking of wines based on similari
 #### 1. Notebook
 - Contains ranking.ipnyb which will show step by step cell process for fulfilling the project objective i.e. ranking and recommending wines based on their query.
 
+#### 2. Src
+- Contains load_dataset.py that loads dataset as dataframe from the given path
+- Contains embeddings.py that creates embeddings of the provided dataframe
+- Contains ranking.py that creates search index and ranks the wines based on similarity. Also recommends users their ideal wine.
+
 ### Pre-requisites:
 - pipenv(sudo apt-get pipenv)
 - Hardware accelerator = GPU (Highly Recommended)
