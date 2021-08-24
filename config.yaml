@@ -1,0 +1,2 @@
+dataset_path: "dataset/wine_dataset.csv"
+model_name: "distilbert-base-uncased"
