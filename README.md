@@ -6,11 +6,15 @@ The objective for this project is to create a ranking of wines based on similari
 #### 1. Notebook
 - Contains ranking.ipnyb which will show step by step cell process for fulfilling the project objective i.e. ranking and recommending wines based on their query.
 
+### Pre-requisites:
+- pipenv(sudo apt-get pipenv)
+- Hardware accelerator = GPU (Highly Recommended)
+
 ### How to run this repository:
-Pre-requisits: Install pipenv(sudo apt-get pipenv).
 #### Step 1: Setup 
 - Clone the repo.
-- pipenv shell
+- In the folder, run 'pipenv shell' 
+- Then run 'pipenv install'
 
 #### Step 2: Setup folders
 - create a dataset folder

@@ -1,6 +1,3 @@
-import torch
-
-
 class Embeddings:
     def __init__(self, distilbert_model, df_description):
         self.distilbert_model = distilbert_model

@@ -3,7 +3,7 @@ import pandas as pd
 
 
 class Ranking:
-    def __init__(self, distilbert_model, embeddings, df):
+    def __init__(self, embeddings, distilbert_model, df):
         """Initializing ranking class with the following variables and objects
 
         Args:
